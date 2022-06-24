@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slice/Calories</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app_container">
+            <h1 class="app_name">Slice/Calories</h1>
+
+            <div class="slider_container">
+                <div class="slide" id="slide">
+
+                </div>
+
+                <div class="slider_btn">
+                    <button class="prev_btn" id="prev_btn">
+                        <i class="ri-arrow-drop-left-line"></i>
+                    </button>
+                    <button class="next_btn" id="next_btn">
+                        <i class="ri-arrow-drop-right-line"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="selected_item" id="selected_item">
+
+            </div>
+
+            <select class="select" id="select">
+                <option>--- Choose type of food ---</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="brunch">Brunch</option>
+                <option value="diner">Diner</option>
+                <option value="snack">Snack</option>
+            </select>
+
+            <h1 class="app_result" id="result">Result:</h1>
+        </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
