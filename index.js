@@ -138,7 +138,7 @@ function calculateCalories(e){
 const recipesOptions = {
   method: 'GET',
   headers: {
-    'X-RapidAPI-Key': '0623b9d5bemsha9ffac240869a10p1e1439jsn0525471e5911',
+    'X-RapidAPI-Key':null,
     'X-RapidAPI-Host': 'recipe-by-api-ninjas.p.rapidapi.com'
   }
 };
